@@ -1,0 +1,125 @@
+.box{
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 3px solid black;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+  width: 80%; /* Adjust the width as per your requirement */
+  margin: 0 auto; /* Center the grid container horizontally */
+}
+
+.productDetail {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  height: 300px;
+}
+
+.bookCoverImg {
+  width: 100%;
+  max-height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.bookDetails {
+  margin-top: 10px;
+}
+
+.bookTitle {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.bookAuthor {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.bookDescription {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.bookPrice {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.box1 {
+  width: 400px;
+  margin: 3% auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+textarea {
+  height: 100px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#updateBookBtn {
+  margin: 2px auto;
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#updateBookBtn:hover {
+  background-color: #45a049;
+}
